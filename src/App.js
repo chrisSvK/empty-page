@@ -49,11 +49,11 @@ function App() {
       {/* Third segment: form to send email */}
       <form class="email-form" id="email-form">
         <h1>Kontaktujte ma</h1>
-        <label for="email">Email address:</label>
+        <label for="email">Vaša emailová adresa:</label>
         <input type="email" id="email" name="email" required />
-        <label for="message">Message:</label>
+        <label for="message">Správa:</label>
         <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
+        <button type="submit">Poslať email</button>
       </form>
     </div>
   );
